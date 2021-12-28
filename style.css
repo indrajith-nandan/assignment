@@ -1,0 +1,307 @@
+
+/*          Body and Container Section          */
+
+body {
+  font-family: "Barlow", sans-serif;
+  padding: 2rem;
+  margin: 0;
+}
+
+#container {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4159d0e8 0%,
+    #c850c0ea 46%,
+    #ffcd70e0 100%
+  );
+  width: 90%;
+  height: 800px;
+  margin: 4rem auto;
+  padding-top: 6rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 30px rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+/*              About section                 */
+
+#abo_ut {
+  width: 32%;
+  height: 40rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  margin: auto;
+  margin-top: -53rem;
+  margin-bottom: 10rem;
+  text-align: center;
+  background-color: #a9c9ff;
+  background-image: linear-gradient(60deg, #df4f4f 0%, #55df7e 100%);
+  transition: 1s ease-in-out 1s;
+  border-radius: 0.8rem;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.493);
+  overflow: hidden;
+  opacity: 0;
+}
+
+#abo_ut h2 {
+  color: rgb(251, 251, 252);
+  text-shadow: 1px 4px 10px rgba(0, 0, 0, 0.637);
+  margin-top: 2.4rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#abo_ut p {
+  text-align: center;
+  color: #000000;
+  font-size: 1.4;
+}
+
+#contact p {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#contact img {
+  width: 2rem;
+}
+
+.login_btn {
+  background: none;
+  width: 8rem;
+  margin-top: 20px;
+  padding: 10px 18px;
+  border-style: hidden;
+  border-radius: 0.7rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #0c0d46;
+}
+
+.login_btn:hover {
+  background-image: linear-gradient(
+    to right,
+    #d31027 0%,
+    #ea384d 51%,
+    #d31027 100%
+  );
+  color: #eeeeee;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.418);
+}
+
+/*           log in section             */
+
+form {
+  width: 32%;
+  height: 40rem;
+  margin: 1rem auto;
+  padding-top: 1.5rem;
+  background: white;
+  border-radius: 0.4rem;
+  box-shadow: 1px 1px 30px black;
+  overflow: hidden;
+  transition: 1s ease-in-out 1s;
+}
+
+#sign_in {
+  margin-bottom: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bolder;
+  font-family: inherit;
+}
+
+label,
+input {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  margin-bottom: 1.2rem;
+  overflow: hidden;
+}
+
+#forgot {
+  text-align: right;
+  padding-right: 2.2rem;
+}
+
+#forgot a {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: rgb(143, 139, 139);
+  font-weight: bolder;
+}
+
+label {
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+input {
+  border-style: hidden;
+  border-bottom: 2px solid rgb(134, 129, 129);
+  box-shadow: 0.2px 0.5px rgba(0, 0, 0, 0.76);
+}
+
+::placeholder {
+  font-family: inherit;
+}
+
+input:focus {
+  background-color: rgba(221, 142, 195, 0.842);
+}
+
+.button {
+  width: 16rem;
+  height: 2rem;
+  margin-top: 1.8rem;
+  background-color: #4158d0;
+  border-style: hidden;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  font-family: inherit;
+  color: white;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-image: linear-gradient(
+    to right,
+    #4158d0 12%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-position: -16rem;
+}
+
+#user_info {
+  margin-left: 4rem;
+}
+
+.button_sec {
+  text-align: center;
+}
+
+#social_sec {
+  text-align: center;
+  padding-top: 1.2rem;
+}
+
+image {
+  width: 36px;
+}
+
+a {
+  padding-right: 12px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: rgb(143, 139, 139);
+}
+
+.sign_up {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.sign_up p {
+  margin-bottom: 2rem;
+}
+
+.button_q {
+  background: none;
+  width: 8rem;
+  padding: 8px 18px;
+  border-style: hidden;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #141a38;
+}
+
+.button_q:hover {
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.418);
+}
+
+#sign_in {
+  transition: transform 0.8s ease-in-out 0.8s;
+}
+
+/*          sign up section               */
+
+#sign_u {
+  width: 32%;
+  height: 40rem;
+  margin: 1rem auto;
+  padding-top: 1.5rem;
+  background: white;
+  border-radius: 0.4rem;
+  box-shadow: 1px 1px 30px black;
+  overflow: hidden;
+  transition: 1s ease-in-out 1s;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  opacity: 0;
+}
+#sign_u input {
+  background: transparent;
+}
+#sign_u input:focus {
+  background-color: rgba(167, 240, 179, 0.89);
+}
+
+#terms {
+  display: flex;
+  justify-content: center;
+  margin-left: 6rem;
+}
+
+#terms input {
+  width: 18px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+}
+
+#terms label {
+  padding-top: 5px;
+  padding-left: 8px;
+  font-size: 1rem;
+}
+
+/*              Animation    signup               */
+
+.panel_up .sign_in {
+  transform: translateY(-130%);
+  
+}
+
+.panel_up #sign_u {
+  transform: translateY(-102%);
+  opacity: 1;
+}
+
+/*              Animation    about               */
+
+.panel_down #abo_ut {
+  transform: translateY(123%);
+  opacity: 1;
+}
+.panel_down .sign_in {
+  transform: translateY(130%);
+ 
+}

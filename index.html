@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>signin and signup form</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Fuzzy+Bubbles:wght@700&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        
+        <div  id="container" >
+
+            <!--            About section           -->
+
+            <section id="abo_ut">
+                <h2> OUR MISSION</h2>
+                <p>We engages students and academics to improve their progress, enrich student learning, and build a more informed public.</p>
+                <h2>VISION</h2>
+                <p>Education envisions a broader and more diverse society that welcomes public and academic participation, in which students, scholars, and institutions of higher learning are actively engaged in investigating and representing knowledge.</p>
+            
+                <section id="contact">
+                <p>Contact us on edu*****@amail.com </p> 
+                <p>Follow us on <a href="https://www.facebook.com/" target=_blank><img src="/social/fb22.png" alt="facebook"></a> <a href="https://twitter.com/" target=_blank><img src="/social/twit.png" alt="twitter"></a></p> 
+            </section>
+                <button id="back" class="login_btn" type="button">Log In </button>
+            </section>
+
+            <!--                log in section                     -->
+
+            <form  class="sign_in" action="#" >
+                <section id=sign_in class="sign_in">
+                    <h2>Login</h2>
+
+                    <section id="user_info">
+                            
+                        <label for="username">&#128100 Username</label>
+                        <input type="text" name="username" id="username" placeholder="Enter UserName" required>
+                        <label for="password">&#128477 Password</label>
+                        <input type="password" name="User_password" id="password" placeholder="Enter Password " required  minlength="8">
+                        <div id="forgot"><a href="#">Forgot Your Password?</a></div>
+                    </section>
+                    
+                    <section class="button_sec">
+                            <button class="button"> LOGIN</button>
+                    </section>
+
+                    <section id="social_sec">
+                        <p>Or Sign Up using</p>
+                        <a href="#"><img src="/social/goog+.png" alt="google"></a>
+                        <a href="https://www.facebook.com/"><img src="/social/fb22.png" alt="facebook"></a>
+                        <a href="https://twitter.com/"><img src="/social/twit.png" alt="twitter"></a>
+                    </section>
+
+                    <section class="sign_up">
+                        <p>Join Our Squad</p>
+                        <button id="about" class="button_q" type="button">&#9650 About Us</button>
+                        <button id="sup" class="button_q" type="button">Sign Up &#9660</button>
+                    </section>           
+                </section>
+            </form
+            >          
+            <!--                sign up section              -->
+
+            <form id="sign_u"  action="#">
+                <section id=signup >
+                    <h2>SIGNUP</h2>
+                    <section id="user_info">
+                            
+                            <label for="name">&#128100  Your Name</label>
+                            <input type="text" name="name" id="name" placeholder= "Enter Your Name" required minlength="3">
+                            <label for="email">&#128231 Your Email</label>
+                            <input type="email" name="user_email" id="email" placeholder="Enter Your email" required>
+                            <label for="new_password"> &#128477 Password</label>
+                            <input type="password" name="new_password" id="new_password" placeholder="Enter Password " required  minlength="8">
+                            
+                    </section>
+
+                    <section id="terms">
+                            <input type="checkbox" name="egreement" id="egreement" required>
+                            <label for="egreement">Accept <a href="https://en.wikipedia.org/wiki/Terms_of_service">Terms and Conditions</a></label>                             
+                    </section>
+
+                    <section class="button_sec">
+                        <button class="button"  > SIGNUP</button>
+                    </section>
+
+                    <section class="sign_up">
+                            <p>Or Already Have An Account</p>
+                            <button id="sin" class="login_btn" type="button">Log In </button>
+                    </section> 
+                </section>
+            </form> 
+        </div>
+        <script src="main.js" ></script>
+    </body>
+</html>
+
+<!-- Thank you for this oportunity I learned many things by doing this assignment -->
